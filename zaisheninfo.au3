@@ -51,33 +51,34 @@ elseif _GetOSLanguage() ="English" then
 endif
 
 
+
 #Region Mission-Array definition
 ; need special characters here to download images correctly
-local $Missionen = [['Der Gro%C3%9Fe Nordwall','Der Große Nordwall','The Great Northern Wall'] _
+local $Missionen = [['Der Gro%C3%9Fe Nordwall','Der GroÃŸe Nordwall','The Great Northern Wall'] _
 ,['Fort_Ranik','Fort Ranik','Fort Ranik'] _
 ,['Ruinen_vonSurmia','Ruinen von Surmia','Ruins of Surmia'] _
 ,['Nolani-Akademie','Nolani-Akademie','Nolani-Academy'] _
 ,['Borlispass','Borlispass','Borlis Pass'] _
 ,['Das_Frosttor','Das Frosttor','The Frost Gate'] _
-,["D'Alessio-KÃ¼ste","D'Alessio-Küste","D`Alessio Seaboard"] _
-,['KÃ¼ste_der_GÃ¶ttlichkeit','Küste der Göttlichkeit','Divinity Coast'] _
+,["D'Alessio-KÃƒÂ¼ste","D'Alessio-KÃ¼ste","D`Alessio Seaboard"] _
+,['KÃƒÂ¼ste_der_GÃƒÂ¶ttlichkeit','KÃ¼ste der GÃ¶ttlichkeit','Divinity Coast'] _
 ,['Die_Wildnis','Die Wildnis','The Wilds'] _
 ,['Blutsteinsumpf','Blutsteinsumpf','Bloodstone Fen'] _
 ,['Auroralichtung','Auroralichtung','Aurora Glade'] _
 ,['Flussuferprovinz','Flussuferprovinz','Riverside Province'] _
 ,['Riff_der_Stille','Riff der Stille','Sanctum Cay'] _
-,['DÃ¼nen_der_Verzweiflung','Dünen der Verzweiflung','Dunes of Despair'] _
+,['DÃƒÂ¼nen_der_Verzweiflung','DÃ¼nen der Verzweiflung','Dunes of Despair'] _
 ,['Durstiger_Fluss','Durstiger Fluss', 'Thirsty River'] _
 ,['Elonaspitze','Elonaspitze','Elona Reach'] _
 ,['Fels_der_Weissagung','Fels der Weissagung','Augury Rock'] _
-,['Die_DrachenhÃ¶hle','Die Drachenhöhle','The Dragons Lair'] _
-,['EishÃ¶hlen_der_BetrÃ¼bnis','Eishöhlen der Betrübnis','Ice Caves Of Sorrow'] _
+,['Die_DrachenhÃƒÂ¶hle','Die DrachenhÃ¶hle','The Dragons Lair'] _
+,['EishÃƒÂ¶hlen_der_BetrÃƒÂ¼bnis','EishÃ¶hlen der BetrÃ¼bnis','Ice Caves Of Sorrow'] _
 ,['Eisenminen_von_Moladune','Eisenminen von Moladune', 'Iron Mines of Moladune'] _
 ,['Feste_Donnerkopf','Feste Donnerkopf','Thunderhead Keep'] _
 ,['Feuerring','Feuerring','Ring Of Fire'] _
-,['Abbadons_Maul','Abbadons Maul','Abaddon´s Mouth'] _
-,['Vorhof_der_HÃ¶lle',' Vorhof der Hölle','Hell´s Precipice'] _
-,['Minister_Chos_Anwesen','Minister Chos Anwesen','Minister Cho´s Estate'] _
+,['Abbadons_Maul','Abbadons Maul','AbaddonÂ´s Mouth'] _
+,['Vorhof_der_HÃƒÂ¶lle',' Vorhof der HÃ¶lle','HellÂ´s Precipice'] _
+,['Minister_Chos_Anwesen','Minister Chos Anwesen','Minister ChoÂ´s Estate'] _
 ,['Zen_Daijun','Zen Daijun','Zen Daijun'] _
 ,['Vizunahplatz','Vizunahplatz','Vizunah Square'] _
 ,['Nahpuiviertel','Nahpuiviertel','Nahpui Quarter'] _
@@ -86,15 +87,15 @@ local $Missionen = [['Der Gro%C3%9Fe Nordwall','Der Große Nordwall','The Great N
 ,['Boreas-Meeresgrund','Boreas-Meeresgrund','Boreas Seabed'] _
 ,['Sunjiang-Bezirk','Sunjiang-Bezirk','Sunjiang District'] _
 ,['Der_Ewige_Hain','Der Ewige Hain','The Eternal Grove'] _
-,['Gyala-BrustÃ¤tte','Gyala-Brustätte','Gyala Hatchery'] _
-,['Verschlafene_GewÃ¤sser','Verschlafene Gewässer','Unwaking Waters',"Dunes du Désespoir"] _
+,['Gyala-BrustÃƒÂ¤tte','Gyala-BrustÃ¤tte','Gyala Hatchery'] _
+,['Verschlafene_GewÃƒÂ¤sser','Verschlafene GewÃ¤sser','Unwaking Waters',"Dunes du DÃ©sespoir"] _
 ,['Raisu-Palast','Raisu-Palast','Raisu Palace'] _
 ,['Kaiserliches_Refugium','Kaiserliches Refugium','Imperial Sanctum'] _
 ,['Chahbek','Chahbek','Chahbek VIllage'] _
-,['AusgrabungsstÃ¤tte_von_Jokanur','Ausgrabungsstätte von Jokanur','Jokanur Diggins'] _
+,['AusgrabungsstÃƒÂ¤tte_von_Jokanur','AusgrabungsstÃ¤tte von Jokanur','Jokanur Diggins'] _
 ,['Schwarzwasserloch','Schwarzwasserloch','Blacktide Den'] _
 ,['Konsulatshafen','Konsulatshafen','Consulate Docks'] _
-,['Totenanager_von_Venta','Totenanager von Venta','Venta Cemetery'] _
+,['Totenanger_von_Venta','Totenanger von Venta','Venta Cemetery'] _
 ,['Kodonur-Kreuzung','Kodonur-Kreuzung','Kodonur Crossroads'] _
 ,['Passage_von_Pogahn','Passage von Pogahn','Pogahn Passage'] _
 ,['Rilohn-Refugium','Rilohn-Refugium','Rihlon Refuge'] _
@@ -102,25 +103,25 @@ local $Missionen = [['Der Gro%C3%9Fe Nordwall','Der Große Nordwall','The Great N
 ,['Obstgarten_von_Tihark','Obstgarten von Tihark','Tihard Orkchard'] _
 ,['Vorhof_von_Dasha','Vorhof von Dasha','Dasha Vestibule'] _
 ,['Bastion_von_Dzagonur','Bastion von Dzagonur','Dzagonur Bastion'] _
-,['Gro%C3%9Fer_Hof_von_Sebelkeh','Großer Hof von Selbelkeh','Grand Court of Selbelkeh'] _
-,['Jennurs_Horde','Jennurs Horde','Jennur´s Horde'] _
+,['Gro%C3%9Fer_Hof_von_Sebelkeh','GroÃŸer Hof von Selbelkeh','Grand Court of Selbelkeh'] _
+,['Jennurs_Horde','Jennurs Horde','JennurÂ´s Horde'] _
 ,['Nundu-Bucht','Nundu-Bucht','Nundu Bay'] _
-,['Ã–dland-Tor','Ödland-Tor','Gate Of Desolation'] _
+,['Ãƒâ€“dland-Tor','Ã–dland-Tor','Gate Of Desolation'] _
 ,['Ruinen_von_Morah','Ruinen von Morah','Ruins of Morah'] _
 ,['Tor_des_Schmerzes','Tor des Schmerzes','Gate of Pain'] _
 ,['Tor_des_Wahnsinns','Tor des Wahnsinns','Gate of Madness'] _
-,['Abaddons_Tor','Abaddons Tor','Abaddon´s Gate'] _
-,['Der_Fluch_des_NornbÃ¤ren','Fluch des Nornbären','Curse Of The Nornbear'] _
+,['Abaddons_Tor','Abaddons Tor','AbaddonÂ´s Gate'] _
+,['Der_Fluch_des_NornbÃƒÂ¤ren','Fluch des NornbÃ¤ren','Curse Of The Nornbear'] _
 ,['Ein_Portal_zu_weit','Ein Portal zu weit','A Gate Too Far'] _
-,['Blut_wÃ¤scht_Blut' ,'Blut wäscht Blut','Blood Washes Blood'] _
+,['Blut_wÃƒÂ¤scht_Blut' ,'Blut wÃ¤scht Blut','Blood Washes Blood'] _
 ,['Auf_der_Suche_nach_dem_Blutstein','Auf der Suche nach dem Blutstein','Finding The Bloodstone'] _
 ,['Die_scheue_Golemantin','Die scheue Golemantin','The Elusive Golemancer'] _
 ,['G.O.L.E.M','G.O.L.E.M','Genius Operated Living Enchanted Manifestation'] _
 ,['Gegen_die_Charr','Gegen die Charr','Against The Charr'] _
 ,['Brudertrupp','Brudertrupp','Warband Of Brothers'] _
 ,['Der_Angriff_auf_die_Festung','Der Angriff auf die Festung','Assault On The Stronghold'] _
-,['Tiefen_der_Zerst%C3%B6rung','Tiefen der Zerstörung','Destruction´s Depths'] _; Tiefen der Zerstörung
-,['Eine_Zeit_fÃ¼r_Helden','Eine Zeit für Helden','A Time For Heroes']] ; Eine Zeit für Helden
+,['Tiefen_der_Zerst%C3%B6rung','Tiefen der ZerstÃ¶rung','DestructionÂ´s Depths'] _; Tiefen der ZerstÃ¶rung
+,['Eine_Zeit_fÃƒÂ¼r_Helden','Eine Zeit fÃ¼r Helden','A Time For Heroes']] ; Eine Zeit fÃ¼r Helden
 
 ;_ArrayDisplay($Missionen)
 #EndRegion
@@ -143,17 +144,17 @@ local $Vanq[][4]=[['Alt-Ascalon','Alt-Ascalon','Old Ascalon'] _
 ,['Eisenrossmine','Eisenrossmine','Iron Horse Mine'] _
 ,['Der_Schwarze_Vorhang','Der Schwarze Vorhang','The Black Curtain'] _
 ,['Kessex-Gipfel','Kessex-Gipfel','Kessex Peak'] _
-,['K%c3%b6nigsruh','Königsruh','Majesty''s Rest'] _ ; Königsruh
+,['K%c3%b6nigsruh','KÃ¶nigsruh','Majesty''s Rest'] _ ; KÃ¶nigsruh
 ,['Nebo-Terrasse','Nebo-Terrasse','Nebo Terrace'] _
 ,['Provinz_Nordkryta','Provinz Nordkryta','North Kryta Province'] _
-,['Schurkenh%C3%BCgel','Schurkenhügel','Scoundrel''s Rise'] _
+,['Schurkenh%C3%BCgel','SchurkenhÃ¼gel','Scoundrel''s Rise'] _
 ,['Stachelrochenstrand','Stachelrochenstrand','Stingray Strand'] _
 ,['Talmark-Wildnis','Talmark-Wildnis','Talmark Wilderness'] _
-,['Tr%C3%A4nen_der_Gefallenen','Tränen der Gefallenen','Tears of the Fallen',"Valis l'effréné"] _
+,['Tr%C3%A4nen_der_Gefallenen','TrÃ¤nen der Gefallenen','Tears of the Fallen',"Valis l'effrÃ©nÃ©"] _
 ,['Verfluchtes_Land','Verfluchtes Land','Cursed Lands'] _
-,['Wachturmküste','Wachturmküste','Watchtower Coast'] _
+,['WachturmkÃ¼ste','WachturmkÃ¼ste','Watchtower Coast'] _
 ,['Zwillingsschlangenseen','Zwillingsschlangenseen','Twin Serpent Lakes'] _
-,['Die_Wasserf%C3%A4lle','Die Wasserfälle','The Falls'] _
+,['Die_Wasserf%C3%A4lle','Die WasserfÃ¤lle','The Falls'] _
 ,['Ettinbuckel','Ettinbuckel','Ettin''s Back'] _
 ,['Land_der_Weisen','Land der Weisen','Sage Lands'] _
 ,['Mamnoon-Lagune','Mamnoon-Lagune','Mamnoon Lagoon'] _
@@ -163,16 +164,16 @@ local $Vanq[][4]=[['Alt-Ascalon','Alt-Ascalon','Old Ascalon'] _
 ,['Wildwurzel','Wildwurzel','Tangle Root'] _
 ,['Das_Trockene_Meer','Das Trockene Meer','The Arid Sea'] _
 ,['Die_Narbe','Die Narbe','The Scar'] _
-,['Geierd%C3%BCnen','Geierdünen','Vulture Drifts'] _
+,['Geierd%C3%BCnen','GeierdÃ¼nen','Vulture Drifts'] _
 ,['Himmelsspitze','Himmelsspitze','Skyward Reach'] _
 ,['Pfad_des_Propheten','Pfad des Propheten','Prophet''s Path'] _
 ,['Salzebenen','Salzebenen','Salt Flats'] _
-,['Wahrsagerh%c3%b6he','Wahrsagerhöhe','Diviner''s Ascent'] _
+,['Wahrsagerh%c3%b6he','WahrsagerhÃ¶he','Diviner''s Ascent'] _
 ,['Pfad_des_Propheten','Pfad des Propheten','Prophet''s Path'] _
 ,['Eisdom','Eisdom','Icedome'] _
 ,['Eisscholle','Eisscholle','Ice Floe'] _
 ,['Frostwald','Frostwald','Frozen Forest'] _
-,['Grenths_Fu%C3%9Fabdruck','Grenths Fußabdruck','Grenth''s Footprint'] _
+,['Grenths_Fu%C3%9Fabdruck','Grenths FuÃŸabdruck','Grenth''s Footprint'] _
 ,['Lornarpass','Lornarpass','Lornar''s Pass'] _
 ,['Mineralquellen','Mineralquellen','Mineral Springs'] _
 ,['Schlangentanz','Schlangentanz','Snake Dance'] _
@@ -206,15 +207,15 @@ local $Vanq[][4]=[['Alt-Ascalon','Alt-Ascalon','Old Ascalon'] _
 ,['Farntal','Farntal','Ferndale'] _
 ,['Melandrus_Hoffnung','Melandrus Hoffnung','Melandru''s Hope'] _
 ,['Morostovweg','Morostovweg','Morostav Trail'] _
-,['Trauerflorf%C3%A4lle','Trauerflorfälle','Mourning Veil Falls'] _
+,['Trauerflorf%C3%A4lle','TrauerflorfÃ¤lle','Mourning Veil Falls'] _
 ,['Archipel','Archipel','Archipelagos'] _
 ,['Boreas_Meeresgrund','Boreas Meeresgrund','Boreas Seabed'] _
-,['Gyala-Brutst%C3%A4tte','Gyala-Brutstätte','Gyala Hatchery'] _
-,['Maishang-H%C3%BCgel','Maishang-Hügel','Maishang Hills'] _
+,['Gyala-Brutst%C3%A4tte','Gyala-BrutstÃ¤tte','Gyala Hatchery'] _
+,['Maishang-H%C3%BCgel','Maishang-HÃ¼gel','Maishang Hills'] _
 ,['Quinkai','Quinkai','Mount Qinkai'] _
 ,['Rheas_Krater','Rheas Krater','Rhea''s Crater'] _
 ,['Stumme_Brandung','Stumme Brandung','Silent Surf'] _
-,['Verschlafene_Gew%C3%A4sser','Verschlafene Gewässer','Unwaking Waters',"Dunes du Désespoir"] _
+,['Verschlafene_Gew%C3%A4sser','Verschlafene GewÃ¤sser','Unwaking Waters',"Dunes du DÃ©sespoir"] _
 ,['Fahranur,_die_Erste_Stadt','Fahranur, die Erste Stadt','Fahranur, The First City'] _
 ,['Felsen_von_Dohjok','Felsen von Dohjok','Cliffs of Dohjok'] _
 ,['Issnur-Inseln','Issnur-Inseln','Issnur Isles'] _
@@ -222,18 +223,18 @@ local $Vanq[][4]=[['Alt-Ascalon','Alt-Ascalon','Old Ascalon'] _
 ,['Mehtani-Archipel','Mehtani-Archipel','Mehtani Keys'] _
 ,['Zehlon-Bucht','Zehlon-Bucht','Zehlon Reach'] _
 ,['Arkjok-Bastei','Arkjok-Bastei','Arkjok Ward'] _
-,['Bahdok-H%c3%b6hlen','Bahdok-Höhlen','Bahdok Caverns'] _
-,['Barbarenk%C3%BCste','Barbarenküste','Barbarous Shore'] _
+,['Bahdok-H%c3%b6hlen','Bahdok-HÃ¶hlen','Bahdok Caverns'] _
+,['Barbarenk%C3%BCste','BarbarenkÃ¼ste','Barbarous Shore'] _
 ,['Dejarin-Anwesen','Dejarin-Anwesen','Dejarin Estate'] _
 ,['Die_Schwemmebene_von_Mahnkelon','Die Schwemmebene von Mahnkelon','The Floodplain of Mahnkelon'] _
 ,['Gandara,_die_Mondfestung','Gandara, die Mondfestung','Gandara, the Moon Fortress'] _
 ,['Jahai-Klippen','Jahai-Klippen','Jahai Bluffs'] _
-,['Marga-K%C3%BCste','Marga-Küste','Marga Coast'] _
-,['Sonnenw%C3%A4rtige_S%C3%BCmpfe','Sonnenwärtige Sümpfe','Sunward Marches'] _
+,['Marga-K%C3%BCste','Marga-KÃ¼ste','Marga Coast'] _
+,['Sonnenw%C3%A4rtige_S%C3%BCmpfe','SonnenwÃ¤rtige SÃ¼mpfe','Sunward Marches'] _
 ,['Turais_Weg','Turais Weg','Turai''s Procession'] _
 ,['Der_Spiegel_von_Lyss','Der Spiegel von Lyss','The Mirror of Lyss'] _
 ,['Forum-Hochland','Forum-Hochland','Forum Highlands'] _
-,['G%C3%BCter_von_Chokhin','Güter von Chokhin','Holdings of Chokhin'] _
+,['G%C3%BCter_von_Chokhin','GÃ¼ter von Chokhin','Holdings of Chokhin'] _
 ,['Makuun_die_Leuchtende','Makuun die Leuchtende','Resplendent Makuun'] _
 ,['Garten_von_Seborhin','Garten von Seborhin','Garden of Seborhin'] _
 ,['Vehjin-Minen','Vehjin-Minen','Vehjin Mines'] _
@@ -243,24 +244,24 @@ local $Vanq[][4]=[['Alt-Ascalon','Alt-Ascalon','Old Ascalon'] _
 ,['Yahtendi-Schluchten','Yahtendi-Schluchten','Yatendi Canyons'] _
 ,['Das_Alkalibecken','Das Alkalibecken','The Alkali Pan'] _
 ,['Das_Zerissene_Herz','Das Zerissene Herz','The Ruptured Heart'] _
-,['Die_Schwefel-Ein%c3%b6de','Die Schwefel-Einöde','The Sulfurous Wastes'] _
-,['Die_Zerkl%C3%BCfteten_Schluchten','Die Zerklüfteten Schluchten','The Shattered Ravines'] _
-,['Giftige_Ausw%C3%BCchse','Giftige Auswüchse','Poisoned Outcrops'] _
-,['Jokos_Dom%C3%A4ne','Jokos Domäne','Joko''s Domain'] _
+,['Die_Schwefel-Ein%c3%b6de','Die Schwefel-EinÃ¶de','The Sulfurous Wastes'] _
+,['Die_Zerkl%C3%BCfteten_Schluchten','Die ZerklÃ¼fteten Schluchten','The Shattered Ravines'] _
+,['Giftige_Ausw%C3%BCchse','Giftige AuswÃ¼chse','Poisoned Outcrops'] _
+,['Jokos_Dom%C3%A4ne','Jokos DomÃ¤ne','Joko''s Domain'] _
 ,['Kristallspitze','Kristallspitze','Crystal Overlook'] _
 ,['Alcazia-Dickicht','Alcazia-Dickicht','Alcazia Tangle'] _
 ,['Arborbucht','Arborbucht','Arbor Bay'] _
-,['Funkenschw%C3%A4rmersumpf','Funkenschwärmersumpf','Sparkfly Swamp'] _
-,['Gr%C3%BCne_Kaskaden','Grüne Kaskaden','Verdant Cascades'] _
+,['Funkenschw%C3%A4rmersumpf','FunkenschwÃ¤rmersumpf','Sparkfly Swamp'] _
+,['Gr%C3%BCne_Kaskaden','GrÃ¼ne Kaskaden','Verdant Cascades'] _
 ,['Magussteine','Magussteine','Magus Stones'] _
-,['Zerissene_Erde','Zerissene Erde','Riven Earth'] _
+,['Zerrissene_Erde','Zerrissene Erde','Riven Earth'] _
 ,['Dalada-Hochlande','Dalada-Hochlande','Dalada Uplands'] _
-,['Grothmar-Kriegshügel','Grothmar-Kriegshügel','Grothmar Wardowns'] _
+,['Grothmar-KriegshÃ¼gel','Grothmar-KriegshÃ¼gel','Grothmar Wardowns'] _
 ,['Sacnoth-Tal','Sacnoth-Tal','Sacnoth Valley'] _
-,['Bjora-S%C3%BCmpfe','Bjora-Sümpfe','Bjora Marches'] _
+,['Bjora-S%C3%BCmpfe','Bjora-SÃ¼mpfe','Bjora Marches'] _
 ,['Drakkar-See','Drakkar-See','Drakkar Lake'] _
-,['Eisklippen-Abgr%C3%BCnde','Eisklippen-Abgründe','Ice Cliff Chasms'] _
-,['Jaga-Mor%C3%A4ne','Jaga-Moräne','Jaga Moraine'] _
+,['Eisklippen-Abgr%C3%BCnde','Eisklippen-AbgrÃ¼nde','Ice Cliff Chasms'] _
+,['Jaga-Mor%C3%A4ne','Jaga-MorÃ¤ne','Jaga Moraine'] _
 ,['Norrhart-Gebiete','Norrhart-Gebiete','Norrhart Domains'] _
 ,['Varajar-Moor','Varajar-Moor','Varajar Fells']]
 
@@ -270,33 +271,33 @@ local $Vanq[][4]=[['Alt-Ascalon','Alt-Ascalon','Old Ascalon'] _
 
 #Region Wanted-Array definition
 local $Wanted=[['Justiziarin_Kasandra','Justiziarin_Kasandra','Justiziarin_Kasandra'] _
-,['Zaln_der_Ersch%C3%B6pfte','Zaln der Erschöpfte','boss not set','boss not set'] _
+,['Zaln_der_Ersch%C3%B6pfte','Zaln der ErschÃ¶pfte','boss not set','boss not set'] _
 ,['Carnak_der_Hungernde','Carnak der Hungernde','boss not set','boss not set'] _
-,['Greves_der_Anma%C3%9Fende','Greves der Anmaßende','boss not set','boss not set'] _
+,['Greves_der_Anma%C3%9Fende','Greves der AnmaÃŸende','boss not set','boss not set'] _
 ,['Justiziarin_Kimii','Justiziarin Kimii','boss not set','boss not set'] _
 ,['Destor_der_Wahrheitssuchende','Destor der Wahrheitssuchende','boss not set','boss not set'] _
 ,['Justiziarin_Amilyn','Justiziarin Amilyn','boss not set','boss not set'] _
 ,['Justiziar_Marron','Justiziar Marron','boss not set','boss not set'] _
 ,['Justiziar_Sevaan','Justiziar Sevaan','boss not set','boss not set'] _
-,['Vess_die_Streits%C3%BCchtige','Vess die Streitsüchtige','boss not set','boss not set'] _
+,['Vess_die_Streits%C3%BCchtige','Vess die StreitsÃ¼chtige','boss not set','boss not set'] _
 ,['Maximilian_der_Pingelige','Maximilian der Pingelige','boss not set','boss not set'] _
 ,['Cerris','Cerris','boss not set','boss not set'] _
 ,['Lev_die_Verdammte','Lev die Verdammte','boss not set','boss not set'] _
-,['Sarnia_die_Roth%C3%A4ndige','Sarnia die Rothändige','boss not set','boss not set'] _
-,['Vakar_der_Uners%C3%A4ttlichee','Vakar der Unersättliche','boss not set','boss not set'] _
+,['Sarnia_die_Roth%C3%A4ndige','Sarnia die RothÃ¤ndige','boss not set','boss not set'] _
+,['Vakar_der_Uners%C3%A4ttlichee','Vakar der UnersÃ¤ttliche','boss not set','boss not set'] _
 ,['Joh_der_Feindselige','Joh der Feindselige','boss not set','boss not set'] _
-,['Barthimus_der_ F%C3%BCrsorgliche','Barthimus der Fürsorgliche','boss not set','boss not set'] _
+,['Barthimus_der_ F%C3%BCrsorgliche','Barthimus der FÃ¼rsorgliche','boss not set','boss not set'] _
 ,['Amalek_der_Gnadenlose','Amalek der Gnadenlose','boss not set','boss not set'] _
 ,['Calamitous','Calamitous','boss not set','boss not set'] _
-,['Selenas_die_Unverbl%C3%BCmte','Selenas die Unverblümte','boss not set','boss not set'] _
-,['Valis_der_Ungez%C3%BCgelte','Valis der Ungezügelte','boss not set','boss not set']]
+,['Selenas_die_Unverbl%C3%BCmte','Selenas die UnverblÃ¼mte','boss not set','boss not set'] _
+,['Valis_der_Ungez%C3%BCgelte','Valis der UngezÃ¼gelte','boss not set','boss not set']]
 #EndRegion
 
 #Region Combat-Array definition
 local $Combat[][4]=[['Fort_Espenwald','Fort Espenwald','Fort Aspenwood'] _
 ,['Aufstieg_der_Helden','Aufstieg der Helden','Heroes Ascent','Random Arena'] _
-,['B%C3%BCndnisk%C3%A4mpfe','Bündniskämpfe','Alliance Battles','Alliance Battles'] _
-,['Gilde_gegen_Gilde','Gildenkämpfe','Guild versus Guild','Guild versus Guild'] _
+,['B%C3%BCndnisk%C3%A4mpfe','BÃ¼ndniskÃ¤mpfe','Alliance Battles','Alliance Battles'] _
+,['Gilde_gegen_Gilde','GildenkÃ¤mpfe','Guild versus Guild','Guild versus Guild'] _
 ,['Kodex-Arena','Kodex-Arena','Codex Arena','Codex Arena'] _
 ,['Zufallsarenen','Zufallsarenen','Random Arena','Random Arena'] _
 ,['Der_Jadesteinbruch','Der Jadesteinbruch','Jade Quarry','Jade Quarry']]
@@ -311,11 +312,11 @@ local $Bounty[][4]=[['Faulschuppe','Faulschuppe','Rotscale','Rotscale'] _
 ,['Harn_und_Maxine_Coldstone','Harn und Maxine Coldstone','Harn and Maxine Coldstone','Harn and Maxine Coldstone'] _
 ,['Baubao_Wellenzorn','Baubao Wellenzorn','Baubao Wavewrath','Baubao Wavewrath'] _
 ,['Chung_der_Eingestimmte','Chung der Eingestimmte','Chung, the Attuned','Chung, the Attuned'] _
-,['Ghial_der_Knochent%C3%A4nzer','Ghial der Knochentänzer','Ghial the Bone Dancer','Ghial the Bone Dancer'] _
+,['Ghial_der_Knochent%C3%A4nzer','Ghial der KnochentÃ¤nzer','Ghial the Bone Dancer','Ghial the Bone Dancer'] _
 ,['Quansong_Geistsprecher','Quansong Geistsprecher','Quansong Spiritspeak','Quansong Spiritspeak'] _
-,['Royen_Bestienw%C3%A4rter','Royen Bestienwärter','Royen Beastkeeper','Royen Beastkeeper'] _
+,['Royen_Bestienw%C3%A4rter','Royen BestienwÃ¤rter','Royen Beastkeeper','Royen Beastkeeper'] _
 ,['Kanaxai','Kanaxai','Kanaxai','Kanaxai'] _
-,['Kunvie_Feuerfl%C3%BCgel','Kunvie Feuerflügel','Kunvie Firewing','Kunvie Firewing'] _
+,['Kunvie_Feuerfl%C3%BCgel','Kunvie FeuerflÃ¼gel','Kunvie Firewing','Kunvie Firewing'] _
 ,['Mohby_Windschnabel','Mohby Windschnabel','Mohby Windbeak','Mohby Windbeak'] _
 ,['Ssuns_der_von_Dwayna_Gesegnete','Ssuns der von Dwayna Gesegnete','Ssuns, Blessed of Dwayna','Ssuns, Blessed of Dwayna'] _
 ,['Arbor_Erdruf','Arbor Erdruf','Arbor Earthcall','Arbor Earthcall'] _
@@ -326,18 +327,18 @@ local $Bounty[][4]=[['Faulschuppe','Faulschuppe','Rotscale','Rotscale'] _
 ,['Jarimiya_der_Gnadenlose','Jarimiya der Gnadenlose','Jarimiya the Unmerciful','Jarimiya the Unmerciful'] _
 ,['Korshek_der_Geopferte','Korshek der Geopferte','Korshek the Immolated','Korshek the Immolated'] _
 ,['Droajam,_Magier_des_Sandes','Droajam, Magier des Sandes','Droajam, Mage of the Sands','Droajam, Mage of the Sands'] _
-,['Jedeh_der_M%C3%A4chtige','Jedeh der Mächtige','Jedeh the Mighty','Jedeh the Mighty'] _
-,['F%C3%BCrst_Jadoth','Fürst Jadoth','Lord Jadoth','Lord Jadoth'] _
-,['Das_Gro%c3%9fe_Dunkel','Das Große Dunkel','The Greater Darkness','The Greater Darkness'] _
+,['Jedeh_der_M%C3%A4chtige','Jedeh der MÃ¤chtige','Jedeh the Mighty','Jedeh the Mighty'] _
+,['F%C3%BCrst_Jadoth','FÃ¼rst Jadoth','Lord Jadoth','Lord Jadoth'] _
+,['Das_Gro%c3%9fe_Dunkel','Das GroÃŸe Dunkel','The Greater Darkness','The Greater Darkness'] _
 ,['Die_Schwarze_Bestie_von_Arrgh','Die Schwarze Bestie von Arrgh','The Black Beast of Arrgh','The Black Beast of Arrgh'] _
-,['Die_Stygischen_F%C3%BCrsten','Die Stygischen Fürsten','The Stygian Lords','The Stygian Lords'] _
-,['Die_Stygischen_Unterf%C3%BCrsten','Die Stygischen Unterfürsten','The Stygian Underlords','The Stygian Underlords'] _
+,['Die_Stygischen_F%C3%BCrsten','Die Stygischen FÃ¼rsten','The Stygian Lords','The Stygian Lords'] _
+,['Die_Stygischen_Unterf%C3%BCrsten','Die Stygischen UnterfÃ¼rsten','The Stygian Underlords','The Stygian Underlords'] _
 ,['Arachni','Arachni','Arachni','Arachni'] _
 ,['Duncan_der_Schwarze','Duncan der Schwarze','Duncan the Black','Duncan the Black'] _
 ,['Eldritch-Ettin','Eldritch-Ettin','Eldritch-Ettin','Eldritch-Ettin'] _
 ,['Fendi_Nin','Fendi Nin','Fendi Nin','Fendi Nin'] _
 ,['Fronis_Eisenzehe','Fronis Eisenzehe','Fronis Irontoe','Fronis Irontoe'] _
-,['Frostrachen_der_Sippenschl%C3%A4chter','Frostrachen der Sippenschlächter','Frostmaw the Kinslayer','Frostmaw the Kinslayer'] _
+,['Frostrachen_der_Sippenschl%C3%A4chter','Frostrachen der SippenschlÃ¤chter','Frostmaw the Kinslayer','Frostmaw the Kinslayer'] _
 ,['Havok_Seelenheuler','Havok Seelenheuler','Havok Soulwail','Havok Soulwail'] _
 ,['Ilsundur,_Herr_des_Feuers','Ilsundur, Herr des Feuers','Ilsundur, Lord of Fire','Ilsundur, Lord of Fire'] _
 ,['Justiziar_Thommis ','Justiziar Thommis ','Justiciar Thommis ','Justiciar Thommis '] _
@@ -347,10 +348,10 @@ local $Bounty[][4]=[['Faulschuppe','Faulschuppe','Rotscale','Rotscale'] _
 ,['Rand_Sturmweber','Rand Sturmweber','Rand Stormweaver','Rand Stormweaver'] _
 ,['Rragar_Menschenfresser','Rragar Menschenfresser','Rragar Maneater','Rragar Maneater'] _
 ,['Selvetarm','Selvetarm','Selvetarm','Selvetarm'] _
-,['Seuche_der_Zerstörung ','Seuche der Zerstörung ','Plague of Destruction','Plague of Destruction'] _
+,['Seuche_der_ZerstÃ¶rung ','Seuche der ZerstÃ¶rung ','Plague of Destruction','Plague of Destruction'] _
 ,['Spektral-Schleim','Spektral-Schleim','Prismatic Ooze','Prismatic Ooze'] _
 ,['TPS-Regler-Golem','TPS-Regler-Golem','TPS Regulator Golem','TPS Regulator Golem'] _
-,['%C3%9Cberrest_der_Vorzeit','Überrest der Vorzeit','Remnant of Antiquities','Remnant of Antiquities'] _
+,['%C3%9Cberrest_der_Vorzeit','Ãœberrest der Vorzeit','Remnant of Antiquities','Remnant of Antiquities'] _
 ,["Z'him_Monns","Z'him Monns","Z'him Monns","Z'him Monns"] _
 ,['Zoldark_der_Unheilige','Zoldark der Unheilige','Zoldark the Unholy','Zoldark the Unholy'] _
 ,['Schmiedewicht','Schmiedewicht','Forgewight','Forgewight'] _
@@ -366,12 +367,12 @@ local $Bounty[][4]=[['Faulschuppe','Faulschuppe','Rotscale','Rotscale'] _
 ,["Menzies' Priester","Menzies' Priester","Priest of Menzies","Priest of Menzies"] _
 ,['Lord_Khobay','Lord Khobay','Lord Khobay','Lord Khobay'] _
 ,['Drachen-Lich','Drachen-Lich','Dragon Lich','Dragon Lich'] _
-,['Rachs%C3%BCchtiger_Aatxe','Rachsüchtiger Aatxe','Vengeful Aatxe','Vengeful Aatxe'] _
+,['Rachs%C3%BCchtiger_Aatxe','RachsÃ¼chtiger Aatxe','Vengeful Aatxe','Vengeful Aatxe'] _
 ,['Die_vier_Reiter','Die vier Reiter','The Four Horsemen','The Four Horsemen'] _
-,['Geladene_Schw%C3%A4rze','Geladene Schwärze','Charged Blackness','Charged Blackness']]
+,['Geladene_Schw%C3%A4rze','Geladene SchwÃ¤rze','Charged Blackness','Charged Blackness']]
 #EndRegion
 
-; replace chars: ü %C3%BC ;; Ü %C3%9C ;; ä %C3%A4 ;; ö  %c3%b6 ;; ß %c3%9f
+; replace chars: Ã¼ %C3%BC ;; Ãœ %C3%9C ;; Ã¤ %C3%A4 ;; Ã¶  %c3%b6 ;; ÃŸ %c3%9f
 GetTodaysZaishen()
 
 Func GetTodaysZaishen()
