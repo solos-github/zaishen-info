@@ -67,7 +67,7 @@ local $Missionen = [['Der Gro%C3%9Fe Nordwall','Der Große Nordwall','The Great 
 ,['Auroralichtung','Auroralichtung','Aurora Glade'] _
 ,['Flussuferprovinz','Flussuferprovinz','Riverside Province'] _
 ,['Riff_der_Stille','Riff der Stille','Sanctum Cay'] _
-,['DÃ¼nen_der_Verzweiflung','Dünen der Verzweiflung','Dunes of Despair'] _
+,['D%C3%BCnen_der_Verzweiflung','Dünen der Verzweiflung','Dunes of Despair'] _
 ,['Durstiger_Fluss','Durstiger Fluss', 'Thirsty River'] _
 ,['Elonaspitze','Elonaspitze','Elona Reach'] _
 ,['Fels_der_Weissagung','Fels der Weissagung','Augury Rock'] _
@@ -218,6 +218,7 @@ local $Vanq[][4]=[['Alt-Ascalon','Alt-Ascalon','Old Ascalon'] _
 ,['Verschlafene_Gew%C3%A4sser','Verschlafene Gewässer','Unwaking Waters',"Dunes du Désespoir"] _
 ,['Fahranur,_die_Erste_Stadt','Fahranur, die Erste Stadt','Fahranur, The First City'] _
 ,['Felsen_von_Dohjok','Felsen von Dohjok','Cliffs of Dohjok'] _
+,['Flachland_von_Jarin','Flachland von Jarin','Plains of Jarin'] _
 ,['Issnur-Inseln','Issnur-Inseln','Issnur Isles'] _
 ,['Lahtenda-Sumpf','Lahtenda-Sumpf','Lahtenda Bog'] _
 ,['Mehtani-Archipel','Mehtani-Archipel','Mehtani Keys'] _
