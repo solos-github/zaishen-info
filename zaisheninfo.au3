@@ -52,6 +52,7 @@ endif
 
 
 
+
 #Region Mission-Array definition
 ; need special characters here to download images correctly
 local $Missionen = [['Der Gro%C3%9Fe Nordwall','Der Große Nordwall','The Great Northern Wall'] _
@@ -92,7 +93,7 @@ local $Missionen = [['Der Gro%C3%9Fe Nordwall','Der Große Nordwall','The Great 
 ,['Raisu-Palast','Raisu-Palast','Raisu Palace'] _
 ,['Kaiserliches_Refugium','Kaiserliches Refugium','Imperial Sanctum'] _
 ,['Chahbek','Chahbek','Chahbek VIllage'] _
-,['AusgrabungsstÃ¤tte_von_Jokanur','Ausgrabungsstätte von Jokanur','Jokanur Diggins'] _
+,['Ausgrabungsst%C3%A4tte_von_Jokanur','Ausgrabungsstätte von Jokanur','Jokanur Diggins'] _
 ,['Schwarzwasserloch','Schwarzwasserloch','Blacktide Den'] _
 ,['Konsulatshafen','Konsulatshafen','Consulate Docks'] _
 ,['Totenanger_von_Venta','Totenanger von Venta','Venta Cemetery'] _
@@ -287,7 +288,7 @@ local $Wanted=[['Justiziarin_Kasandra','Justiziarin_Kasandra','Justiziarin_Kasan
 ,['Sarnia_die_Roth%C3%A4ndige','Sarnia die Rothändige','boss not set','boss not set'] _
 ,['Vakar_der_Uners%C3%A4ttlichee','Vakar der Unersättliche','boss not set','boss not set'] _
 ,['Joh_der_Feindselige','Joh der Feindselige','boss not set','boss not set'] _
-,['Barthimus_der_ F%C3%BCrsorgliche','Barthimus der Fürsorgliche','boss not set','boss not set'] _
+,['Barthimus_der_F%C3%BCrsorgliche','Barthimus der Fürsorgliche','boss not set','boss not set'] _
 ,['Amalek_der_Gnadenlose','Amalek der Gnadenlose','boss not set','boss not set'] _
 ,['Calamitous','Calamitous','boss not set','boss not set'] _
 ,['Selenas_die_Unverbl%C3%BCmte','Selenas die Unverblümte','boss not set','boss not set'] _
