@@ -117,7 +117,7 @@ local $Missionen = [['Der Gro%C3%9Fe Nordwall','Der Große Nordwall','The Great 
 ,['Blut_wÃ¤scht_Blut' ,'Blut wäscht Blut','Blood Washes Blood'] _
 ,['Auf_der_Suche_nach_dem_Blutstein','Auf der Suche nach dem Blutstein','Finding The Bloodstone'] _
 ,['Die_scheue_Golemantin','Die scheue Golemantin','The Elusive Golemancer'] _
-,['G.O.L.E.M','G.O.L.E.M','Genius Operated Living Enchanted Manifestation'] _
+,['G.O.L.E.M.','G.O.L.E.M','Genius Operated Living Enchanted Manifestation'] _
 ,['Gegen_die_Charr','Gegen die Charr','Against The Charr'] _
 ,['Brudertrupp','Brudertrupp','Warband Of Brothers'] _
 ,['Der_Angriff_auf_die_Festung','Der Angriff auf die Festung','Assault On The Stronghold'] _
