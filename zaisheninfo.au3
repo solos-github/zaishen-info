@@ -57,7 +57,8 @@ endif
 ; need special characters here to download images correctly
 local $Missionen = [['Der Gro%C3%9Fe Nordwall','Der Große Nordwall','The Great Northern Wall'] _
 ,['Fort_Ranik','Fort Ranik','Fort Ranik'] _
-,['Ruinen_vonSurmia','Ruinen von Surmia','Ruins of Surmia'] _
+,['Tore_von_Kryta','Tore von Kryta','Gates of Kryta'] _
+,['Ruinen_von_Surmia','Ruinen von Surmia','Ruins of Surmia'] _
 ,['Nolani-Akademie','Nolani-Akademie','Nolani-Academy'] _
 ,['Borlispass','Borlispass','Borlis Pass'] _
 ,['Das_Frosttor','Das Frosttor','The Frost Gate'] _
