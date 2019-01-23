@@ -53,6 +53,7 @@ endif
 
 
 
+
 #Region Mission-Array definition
 ; need special characters here to download images correctly
 local $Missionen = [['Der Gro%C3%9Fe Nordwall','Der Große Nordwall','The Great Northern Wall'] _
@@ -146,7 +147,7 @@ local $Vanq[][4]=[['Alt-Ascalon','Alt-Ascalon','Old Ascalon'] _
 ,['Eisenrossmine','Eisenrossmine','Iron Horse Mine'] _
 ,['Der_Schwarze_Vorhang','Der Schwarze Vorhang','The Black Curtain'] _
 ,['Kessex-Gipfel','Kessex-Gipfel','Kessex Peak'] _
-,['K%c3%b6nigsruh','Königsruh','Majesty''s Rest'] _ ; Königsruh
+,['K%C3%B6nigsruh','Königsruh','Majesty''s Rest'] _ ; Königsruh
 ,['Nebo-Terrasse','Nebo-Terrasse','Nebo Terrace'] _
 ,['Provinz_Nordkryta','Provinz Nordkryta','North Kryta Province'] _
 ,['Schurkenh%C3%BCgel','Schurkenhügel','Scoundrel''s Rise'] _
