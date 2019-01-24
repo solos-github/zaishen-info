@@ -356,7 +356,7 @@ local $Bounty[][4]=[['Faulschuppe','Faulschuppe','Rotscale','Rotscale'] _
 ,['Spektral-Schleim','Spektral-Schleim','Prismatic Ooze','Prismatic Ooze'] _
 ,['TPS-Regler-Golem','TPS-Regler-Golem','TPS Regulator Golem','TPS Regulator Golem'] _
 ,['%C3%9Cberrest_der_Vorzeit','Überrest der Vorzeit','Remnant of Antiquities','Remnant of Antiquities'] _
-,["Z'him_Monns","Z'him Monns","Z'him Monns","Z'him Monns"] _
+,["Z%27him_Monns","Z'him Monns","Z'him Monns","Z'him Monns"] _
 ,['Zoldark_der_Unheilige','Zoldark der Unheilige','Zoldark the Unholy','Zoldark the Unholy'] _
 ,['Schmiedewicht','Schmiedewicht','Forgewight','Forgewight'] _
 ,['Fenrir','Fenrir','Fenrir','Fenrir'] _
