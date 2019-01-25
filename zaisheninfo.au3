@@ -308,6 +308,8 @@ local $Combat[][4]=[['Fort_Espenwald','Fort Espenwald','Fort Aspenwood'] _
 #EndRegion
 
 #Region Bounty-Array definition
+
+#Region Bounty-Array definition
 local $Bounty[][4]=[['Faulschuppe','Faulschuppe','Rotscale','Rotscale'] _
 ,['Verata','Verata','Verata','Verata'] _
 ,['Das_Dunkel','Das Dunkel','The Darkness','The Darkness'] _
@@ -333,7 +335,7 @@ local $Bounty[][4]=[['Faulschuppe','Faulschuppe','Rotscale','Rotscale'] _
 ,['Droajam,_Magier_des_Sandes','Droajam, Magier des Sandes','Droajam, Mage of the Sands','Droajam, Mage of the Sands'] _
 ,['Jedeh_der_M%C3%A4chtige','Jedeh der Mächtige','Jedeh the Mighty','Jedeh the Mighty'] _
 ,['F%C3%BCrst_Jadoth','Fürst Jadoth','Lord Jadoth','Lord Jadoth'] _
-,['Das_Gro%c3%9fe_Dunkel','Das Große Dunkel','The Greater Darkness','The Greater Darkness'] _
+,['Das_Gro%C3%9Fe_Dunkel','Das Große Dunkel','The Greater Darkness','The Greater Darkness'] _
 ,['Die_Schwarze_Bestie_von_Arrgh','Die Schwarze Bestie von Arrgh','The Black Beast of Arrgh','The Black Beast of Arrgh'] _
 ,['Die_Stygischen_F%C3%BCrsten','Die Stygischen Fürsten','The Stygian Lords','The Stygian Lords'] _
 ,['Die_Stygischen_Unterf%C3%BCrsten','Die Stygischen Unterfürsten','The Stygian Underlords','The Stygian Underlords'] _
@@ -375,9 +377,6 @@ local $Bounty[][4]=[['Faulschuppe','Faulschuppe','Rotscale','Rotscale'] _
 ,['Die_vier_Reiter','Die vier Reiter','The Four Horsemen','The Four Horsemen'] _
 ,['Geladene_Schw%C3%A4rze','Geladene Schwärze','Charged Blackness','Charged Blackness']]
 #EndRegion
-
-; replace chars: ü %C3%BC ;; Ü %C3%9C ;; ä %C3%A4 ;; ö  %c3%b6 ;; ß %c3%9f
-GetTodaysZaishen()
 
 Func GetTodaysZaishen()
 	local $a_Reg_Wanted ; regularExpression array for wanted
