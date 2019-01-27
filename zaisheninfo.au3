@@ -80,7 +80,7 @@ local $Missionen = [['Der Gro%C3%9Fe Nordwall','Der Große Nordwall','The Great 
 ,['Feste_Donnerkopf','Feste Donnerkopf','Thunderhead Keep'] _
 ,['Feuerring','Feuerring','Ring Of Fire'] _
 ,['Abbadons_Maul','Abbadons Maul','Abaddon´s Mouth'] _
-,['Vorhof_der_HÃ¶lle',' Vorhof der Hölle','Hell´s Precipice'] _
+,['Vorhof_der_H%C3%B6lle',' Vorhof der Hölle','Hell´s Precipice'] _
 ,['Minister_Chos_Anwesen','Minister Chos Anwesen','Minister Cho´s Estate'] _
 ,['Zen_Daijun','Zen Daijun','Zen Daijun'] _
 ,['Vizunahplatz','Vizunahplatz','Vizunah Square'] _
