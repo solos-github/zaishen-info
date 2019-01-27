@@ -354,7 +354,7 @@ local $Bounty[][4]=[['Faulschuppe','Faulschuppe','Rotscale','Rotscale'] _
 ,['Rand_Sturmweber','Rand Sturmweber','Rand Stormweaver','Rand Stormweaver'] _
 ,['Rragar_Menschenfresser','Rragar Menschenfresser','Rragar Maneater','Rragar Maneater'] _
 ,['Selvetarm','Selvetarm','Selvetarm','Selvetarm'] _
-,['Seuche_der_Zerstörung ','Seuche der Zerstörung ','Plague of Destruction','Plague of Destruction'] _
+,['Seuche_der_Zerst%C3%B6rung','Seuche der Zerstörung ','Plague of Destruction','Plague of Destruction'] _
 ,['Spektral-Schleim','Spektral-Schleim','Prismatic Ooze','Prismatic Ooze'] _
 ,['TPS-Regler-Golem','TPS-Regler-Golem','TPS Regulator Golem','TPS Regulator Golem'] _
 ,['%C3%9Cberrest_der_Vorzeit','Überrest der Vorzeit','Remnant of Antiquities','Remnant of Antiquities'] _
