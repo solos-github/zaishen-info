@@ -114,7 +114,7 @@ local $Missionen = [['Der Gro%C3%9Fe Nordwall','Der Große Nordwall','The Great 
 ,['Tor_des_Schmerzes','Tor des Schmerzes','Gate of Pain'] _
 ,['Tor_des_Wahnsinns','Tor des Wahnsinns','Gate of Madness'] _
 ,['Abaddons_Tor','Abaddons Tor','Abaddon´s Gate'] _
-,['Der_Fluch_des_NornbÃ¤ren','Fluch des Nornbären','Curse Of The Nornbear'] _
+,['Der_Fluch_des_Nornb%C3%A4ren','Fluch des Nornbären','Curse Of The Nornbear'] _
 ,['Ein_Portal_zu_weit','Ein Portal zu weit','A Gate Too Far'] _
 ,['Blut_wÃ¤scht_Blut' ,'Blut wäscht Blut','Blood Washes Blood'] _
 ,['Auf_der_Suche_nach_dem_Blutstein','Auf der Suche nach dem Blutstein','Finding The Bloodstone'] _
