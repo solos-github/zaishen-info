@@ -14,6 +14,8 @@
 global $language = 1 ; 1=German,2=English,3=French
 global $file= @scriptdir&"\vanq.jpg"
 global $p_mission= @scriptdir&"\mission.jpg"
+$update_wiki=InetRead("http://www.guildwiki.de/gwiki/index.php?title=Liste_der_t%C3%A4glichen_Auftr%C3%A4ge&action=purge")
+
 global $var =InetRead("https://www.guildwiki.de/wiki/Liste_der_t%C3%A4glichen_Auftr%C3%A4ge",8) ; list of all daily quests
 global $original=BinaryToString($var)
 
@@ -49,9 +51,6 @@ elseif _GetOSLanguage() ="German" then
 elseif _GetOSLanguage() ="English" then
 	$language=2
 endif
-
-
-
 
 
 #Region Mission-Array definition
@@ -116,7 +115,7 @@ local $Missionen = [['Der Gro%C3%9Fe Nordwall','Der Große Nordwall','The Great 
 ,['Abaddons_Tor','Abaddons Tor','Abaddon´s Gate'] _
 ,['Der_Fluch_des_Nornb%C3%A4ren','Fluch des Nornbären','Curse Of The Nornbear'] _
 ,['Ein_Portal_zu_weit','Ein Portal zu weit','A Gate Too Far'] _
-,['Blut_wÃ¤scht_Blut' ,'Blut wäscht Blut','Blood Washes Blood'] _
+,['Blut_w%C3%A4scht_Blut' ,'Blut wäscht Blut','Blood Washes Blood'] _
 ,['Auf_der_Suche_nach_dem_Blutstein','Auf der Suche nach dem Blutstein','Finding The Bloodstone'] _
 ,['Die_scheue_Golemantin','Die scheue Golemantin','The Elusive Golemancer'] _
 ,['G.O.L.E.M.','G.O.L.E.M','Genius Operated Living Enchanted Manifestation'] _
@@ -247,7 +246,7 @@ local $Vanq[][4]=[['Alt-Ascalon','Alt-Ascalon','Old Ascalon'] _
 ,['Wildnis_von_Bahdza','Wildnis von Bahdza','Wilderness of Bahdza'] _
 ,['Yahtendi-Schluchten','Yahtendi-Schluchten','Yatendi Canyons'] _
 ,['Das_Alkalibecken','Das Alkalibecken','The Alkali Pan'] _
-,['Das_Zerissene_Herz','Das Zerissene Herz','The Ruptured Heart'] _
+,['Das_Zerrissene_Herz','Das Zerrissene Herz','The Ruptured Heart'] _
 ,['Die_Schwefel-Ein%c3%b6de','Die Schwefel-Einöde','The Sulfurous Wastes'] _
 ,['Die_Zerkl%C3%BCfteten_Schluchten','Die Zerklüfteten Schluchten','The Shattered Ravines'] _
 ,['Giftige_Ausw%C3%BCchse','Giftige Auswüchse','Poisoned Outcrops'] _
@@ -307,7 +306,6 @@ local $Combat[][4]=[['Fort_Espenwald','Fort Espenwald','Fort Aspenwood'] _
 ,['Der_Jadesteinbruch','Der Jadesteinbruch','Jade Quarry','Jade Quarry']]
 #EndRegion
 
-#Region Bounty-Array definition
 
 #Region Bounty-Array definition
 local $Bounty[][4]=[['Faulschuppe','Faulschuppe','Rotscale','Rotscale'] _
@@ -378,6 +376,9 @@ local $Bounty[][4]=[['Faulschuppe','Faulschuppe','Rotscale','Rotscale'] _
 ,['Geladene_Schw%C3%A4rze','Geladene Schwärze','Charged Blackness','Charged Blackness']]
 #EndRegion
 
+; replace chars: ü %C3%BC ;; Ü %C3%9C ;; ä %C3%A4 ;; ö  %c3%b6 ;; ß %c3%9f
+GetTodaysZaishen()
+
 Func GetTodaysZaishen()
 	local $a_Reg_Wanted ; regularExpression array for wanted
 
@@ -425,7 +426,7 @@ For $x = 0 to $Line -1
 
 
 
-				;_ArrayDisplay($a_mission) ;debug
+				_ArrayDisplay($a_vanquish) ;debug
 				;get Mission language and pic
 				local $i = 0
 				#Region get Mission lang
