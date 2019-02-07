@@ -312,7 +312,7 @@ local $Bounty[][4]=[['Faulschuppe','Faulschuppe','Rotscale','Rotscale'] _
 ,['Verata','Verata','Verata','Verata'] _
 ,['Das_Dunkel','Das Dunkel','The Darkness','The Darkness'] _
 ,['Kepkhet_Markschmaus','Kepkhet Markschmaus','Kepkhet Marrowfeast','Kepkhet Marrowfeast'] _
-,['Der_Eiserne_Schmied','The Iron Forgeman','The Iron Forgeman','The Iron Forgeman'] _
+,['Der_Eiserne_Schmied','Der Eiserne Schmied','The Iron Forgeman','The Iron Forgeman'] _
 ,['Harn_und_Maxine_Coldstone','Harn und Maxine Coldstone','Harn and Maxine Coldstone','Harn and Maxine Coldstone'] _
 ,['Baubao_Wellenzorn','Baubao Wellenzorn','Baubao Wavewrath','Baubao Wavewrath'] _
 ,['Chung_der_Eingestimmte','Chung der Eingestimmte','Chung, the Attuned','Chung, the Attuned'] _
