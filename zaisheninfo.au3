@@ -74,7 +74,7 @@ local $Missionen = [['Der Gro%C3%9Fe Nordwall','Der Große Nordwall','The Great 
 ,['Elonaspitze','Elonaspitze','Elona Reach'] _
 ,['Fels_der_Weissagung','Fels der Weissagung','Augury Rock'] _
 ,['Die_DrachenhÃ¶hle','Die Drachenhöhle','The Dragons Lair'] _
-,['EishÃ¶hlen_der_BetrÃ¼bnis','Eishöhlen der Betrübnis','Ice Caves Of Sorrow'] _
+,['Eish%C3%B6hlen_der_Betr%C3%BCbnis','Eishöhlen der Betrübnis','Ice Caves Of Sorrow'] _
 ,['Eisenminen_von_Moladune','Eisenminen von Moladune', 'Iron Mines of Moladune'] _
 ,['Feste_Donnerkopf','Feste Donnerkopf','Thunderhead Keep'] _
 ,['Feuerring','Feuerring','Ring Of Fire'] _
