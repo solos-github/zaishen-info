@@ -247,7 +247,7 @@ local $Vanq[][4]=[['Alt-Ascalon','Alt-Ascalon','Old Ascalon'] _
 ,['Yahtendi-Schluchten','Yahtendi-Schluchten','Yatendi Canyons'] _
 ,['Das_Alkalibecken','Das Alkalibecken','The Alkali Pan'] _
 ,['Das_Zerrissene_Herz','Das Zerrissene Herz','The Ruptured Heart'] _
-,['Die_Schwefel-Ein%c3%b6de','Die Schwefel-Einöde','The Sulfurous Wastes'] _
+,['Die_Schwefel-Ein%C3%B6de','Die Schwefel-Einöde','The Sulfurous Wastes'] _
 ,['Die_Zerkl%C3%BCfteten_Schluchten','Die Zerklüfteten Schluchten','The Shattered Ravines'] _
 ,['Giftige_Ausw%C3%BCchse','Giftige Auswüchse','Poisoned Outcrops'] _
 ,['Jokos_Dom%C3%A4ne','Jokos Domäne','Joko''s Domain'] _
