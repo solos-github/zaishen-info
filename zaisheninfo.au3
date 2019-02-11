@@ -108,7 +108,7 @@ local $Missionen = [['Der Gro%C3%9Fe Nordwall','Der Große Nordwall','The Great 
 ,['Gro%C3%9Fer_Hof_von_Sebelkeh','Großer Hof von Selbelkeh','Grand Court of Selbelkeh'] _
 ,['Jennurs_Horde','Jennurs Horde','Jennur´s Horde'] _
 ,['Nundu-Bucht','Nundu-Bucht','Nundu Bay'] _
-,['Ã–dland-Tor','Ödland-Tor','Gate Of Desolation'] _
+,['%C3%96dland-Tor','Ödland-Tor','Gate Of Desolation'] _
 ,['Ruinen_von_Morah','Ruinen von Morah','Ruins of Morah'] _
 ,['Tor_des_Schmerzes','Tor des Schmerzes','Gate of Pain'] _
 ,['Tor_des_Wahnsinns','Tor des Wahnsinns','Gate of Madness'] _
