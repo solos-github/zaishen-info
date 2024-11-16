@@ -1,3 +1,5 @@
+# Project is no more supprted though dll always changing, feel free to use any code
+
 # zaishen-info
 #zaishen-quest
 #infotool
